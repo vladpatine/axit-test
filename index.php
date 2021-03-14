@@ -55,7 +55,7 @@
 					<nav>
 						<ul class="headSectionOne__menuList">
 							<li class="headSectionOne__menuItem">
-								<a href="#">Features</a>
+								<a href="#perBlock">Features</a>
 							</li>
 							<li class="headSectionOne__menuItem">
 								<a href="#">About</a>
@@ -89,10 +89,11 @@
 						<a href="/" class="offer__logo">
 							<img src="img/logo.png" alt="logo">
 						</a>
-						<h1>modern axure template for beautiful prototypes
+						<h1 class="offer__title">
+							modern axure template for beautiful prototypes
 						</h1>
 						<div class="offer__lrm">
-							<p>
+							<p class="offer__text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
 								euismod bibendum laoreet. Proin gravida dolor sit amet lacus
 								accumsan et viverra justo commodo.n
@@ -125,9 +126,13 @@
 			<div class="container">
 				<div class="sm_block">
 					<div class="socialMedia">
-						<p class="smTitle">Social Media</p>
-						<p class="lrmsocial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Aenean euismod bibendum laoreet.</p>
+						<p class="smTitle">
+							Social Media
+						</p>
+						<p class="lrmsocial">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Aenean euismod bibendum laoreet.
+						</p>
 					</div>
 					<ul class="social_networks">
 						<a href="https://www.facebook.com/" target="blank">
@@ -171,7 +176,7 @@
 		</div> 	
 	</header>
 	<!-- start -->
-	<section class="perfect_block">
+	<section id="perBlock" class="perfect_block">
 		<div class="container">
 			<div class="flex_container_firstpage">
 				<ul class="tab_column_list">
@@ -207,6 +212,7 @@
 			</div>		
 		</div>
 	</section>
+
 	<section class="sub_list">
 		<div class="container">
 			<div class="flex_container_secondpage">
@@ -232,10 +238,10 @@
 						</div>
 						<div class="sub_list_section_text_content">
 							<p class="sub_list_section_text_content_p">Title</p>
-							<div class="sub_list_section_text_main_content">
+							<span class="sub_list_section_text_main_content">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 								Aenean euismod bibendum laoreet.
-							</div>
+							</span>
 						</div>
 					</div>
 						<div class="sub_list_section_dnload">
@@ -248,11 +254,11 @@
 						</div>
 						<div class="sub_list_section_text_content">
 							<p class="sub_list_section_text_content_p">Title</p>
-							<div class="sub_list_section_text_main_content">
+							<span class="sub_list_section_text_main_content">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 								Aenean euismod bibendum laoreet. Proin gravida dolor 
 								sit amet lacus accumsan et viverra justo commodo.
-							</div>
+							</span>
 						</div>
 					</div>	
 				</div>
@@ -285,6 +291,7 @@
 			</div>	
 		</div>
 	</section>
+
 	<!-- =================== Why This is Awesome? =========================== -->
 	<section class="awesome">
 		<div class="container">
@@ -303,8 +310,8 @@
 						<h3 class="awesome__deepTitle">
 							Thoughtful Design
 						</h3>
-						<p class="awesome__deepDescription">Lorem ipsum dolor sit amet, consectetur adipiscing 
-							dolor sit amet lacus accumsan et viverra.
+						<p class="awesome__deepDescription">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 					<div class="awesome__itemTwo">	
@@ -314,8 +321,8 @@
 						<h3 class="awesome__deepTitle">
 							Well Crafted
 						</h3>
-						<p class="awesome__deepDescription">Lorem ipsum dolor sit amet, consectetur adipiscing 
-							dolor sit amet lacus accumsan et viverra.
+						<p class="awesome__deepDescription">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 					<div class="awesome__itemThree">
@@ -325,14 +332,15 @@
 						<h3 class="awesome__deepTitle">
 							Easy to Customize
 						</h3>
-						<p class="awesome__deepDescription">Lorem ipsum dolor sit amet, consectetur adipiscing 
-							dolor sit amet lacus accumsan et viverra.
+						<p class="awesome__deepDescription">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 				</div>			
 			</div>
 		</div>
 	</section>
+
 	<!-- =================== Pricing Options ================================ -->
 	<section class="pricing">
 		<div class="container">
@@ -409,6 +417,7 @@
 			</div>			
 		</div>
 	</section>
+
 	<!-- =================== What our customers are saying ================== -->
 	<section class="costumers">
 		<div class="container">
@@ -482,25 +491,25 @@
 			</div>	
 		</div>
 	</section>
+
 	<!-- =================== Stylish Axure Design =========================== -->
 	<section class="downloadBlock">
-		<div class="container">
-			<div class="section">
-				<div class="downloadBlock__flex">
-					<div class="downloadBlock__wrap">
-						<h2 class="downloadBlock__title">Stylish Axure Design</h2>
-						<p class="downloadBlock__desciption">
-							Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
-						</p>
-					</div>
-					<button type="button" class="downloadBlock__btn">Download</button>
-					<p class="downloadBlock__insertPic">
-						Insert your picture here
+		<div class="section">
+			<div class="downloadBlock__flex">
+				<div class="downloadBlock__wrap">
+					<h2 class="downloadBlock__title">Stylish Axure Design</h2>
+					<p class="downloadBlock__desciption">
+						Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
 					</p>
-				</div>			
-			</div>
-		</div>	
+				</div>
+				<button type="button" class="downloadBlock__btn">Download</button>
+				<p class="downloadBlock__insertPic">
+					Insert your picture here
+				</p>
+			</div>			
+		</div>
 	</section>
+
 	<!-- =================== Contact US ===================================== -->
 	<section class="contactUs">
 		<div class="container">
@@ -526,15 +535,14 @@
 						</ul>
 					</div>
 					<div class="contactUs__message">
-						<textarea placeholder="asdasd" class="contactUs__typeMessage">
-							
-						</textarea>
+						<textarea placeholder="Masage" class="contactUs__typeMessage"></textarea>
 					</div>	
 				</form>
 				<button type="button" name="" class="contactUs__btn">Send Message</button>
 			</div>	
 		</div>
 	</section>
+
 	<!-- =================== Footer ========================================= -->
 	<footer class="socials">
 		<div class="container">
@@ -577,7 +585,7 @@
 					</a>
 				</ul>
 				<p class="socials__copyright">
-					© 2015 Axure Themes
+					© <?php echo Date(Y); ?> Axure Themes
 				</p>
 			</div>
 		</div>
